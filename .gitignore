@@ -1,0 +1,78 @@
+# This gitignore file is for project: BP_F103C8_keyboard (added at: 2025_02_26)
+# 2025_02_26: it was add to : \STM32\workspace_1.8.0\BP_F103C8_keyboard
+Debug/USB_Device
+Debug/app
+Debug/Core
+Debug/Drivers
+Debug/Middlewares
+Debug/*.bat
+!Debug/Prime_post_build.bat
+Release
+.svn/
+.metadata
+.launches
+.config
+a_test_git.c
+*.obj
+*.d
+*.mk
+*.out
+*.opt
+*.bin
+*.log
+*.bak
+# new ignore files:
+ccslicense.lic
+Debug__GNU
+Flash_info
+Doc/html
+Doc/latex
+Doc2/html
+Doc2/docs/*.png
+DOC/temp_code
+DOC/debuger_info
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+#*.hex
+
+
+*.srec
+Debug/post_build_results.txt
+*.list
+*.zip
+*.hex
+Debug/makefile
+DOC/USB_custom_HID_files/stm32l5xx_hal_pcd.Cpp
+DOC/USB_custom_HID_files/usbd_conf.Hpp
+DOC/USB_custom_HID_files/usbd_custom_hid_if.Cpp
+DOC/USB_custom_HID_files/usbd_customhid.Cpp
+DOC/USB_custom_HID_files/usbd_customhid.Hpp
